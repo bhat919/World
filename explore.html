@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore Travel World</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+header{
+background:#0097A7;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.container{
+width:90%;
+margin:30px auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:20px;
+color:#0097A7;
+}
+
+.card-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+transition:.4s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+color:#0097A7;
+}
+
+.card p{
+padding:0 15px 20px;
+}
+
+.btn{
+display:inline-block;
+margin:20px;
+padding:12px 25px;
+background:#00BCD4;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Explore Travel World</h1>
+<p>Choose Your Dream Destination</p>
+</header>
+
+<div class="container">
+
+<h2>Popular Destinations</h2>
+
+<div class="card-container">
+
+<div class="card">
+<img src="https://picsum.photos/id/1015/600/400">
+<h3>Mountain Adventure</h3>
+<p>Enjoy beautiful mountains and fresh air.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/id/1016/600/400">
+<h3>Beach Holiday</h3>
+<p>Relax on amazing beaches with family.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/id/1018/600/400">
+<h3>Nature Tour</h3>
+<p>Discover forests, rivers and waterfalls.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/id/1025/600/400">
+<h3>Luxury Resort</h3>
+<p>Stay in luxury hotels with premium facilities.</p>
+</div>
+
+</div>
+
+<center>
+<a href="booking.html" class="btn">Book Now</a>
+<a href="index.html" class="btn">Back Home</a>
+</center>
+
+</div>
+
+<footer>
+<h3>Travel World</h3>
+<p>© 2026 All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
